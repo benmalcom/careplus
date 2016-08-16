@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:300,700|Ubuntu+Mono|Lato:300,400,700,300italic,400italic&subset=latin,latin-ext);
+html,body{
+    -webkit-font-smoothing: antialiased;
+    position: relative;
+    min-height: 100% !important;
+    background: url('../img/careplus-bg.jpg') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    color: #fff;
+    font-family: "Lato", "Arial", sans-serif;
+}
+
+.overlay-div{
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1000;
+    background: rgba( 255, 255, 255,0.3) no-repeat center center scroll;
+    background-size: cover;
+}
+.big-font{
+    font-size: 7em;
+}
+.fill,.container{
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0;
+}
+
+/*
+media queries*/
+@media (max-width:499px){
+
+    /*Make background-color height extend/scale down*/
+    html,body{
+        position: relative;
+        min-height: 100% !important;
+        background: url('../img/careplus-bg.jpg') no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: contain;
+        background-size: cover;
+    }
+    .big-font{
+        font-size: 3.5em;
+    }
+
+    .overlay-div > p{
+        word-wrap: break-word;
+    }
+
+}
+.transparent{
+    background: rgba( 255, 255, 255,0.7);
+}
+.text-black{
+    color: #000000 !important;
+}

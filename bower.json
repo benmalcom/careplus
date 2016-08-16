@@ -1,0 +1,24 @@
+{
+  "name": "careplus",
+  "description": "",
+  "main": "",
+  "authors": [
+    "benmalcom <benjaminikeji@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "intl-tel-input": "^9.0.4",
+    "eonasdan-bootstrap-datetimepicker": "^4.17.37",
+    "bootstrap-calendar": "^0.2.5"
+  }
+}
