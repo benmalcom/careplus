@@ -37,7 +37,7 @@ media queries*/
     html,body{
         position: relative;
         min-height: 100% !important;
-        background: url('../img/careplus-bg.jpg') no-repeat center center scroll;
+        background: url('../img/careplus-bg.jpg') no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
